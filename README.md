@@ -1,3 +1,3 @@
-# purescript-argonaut-core.py
+# purescript-datetime.py
 
-A port of argonaut-core to purescript-python
+A port of datetime to purescript-python
