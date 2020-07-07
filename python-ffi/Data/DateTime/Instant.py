@@ -12,7 +12,7 @@ def fromDateTimeImpl(y, mo, d, h, m, s, ms):
 
 def toDateTimeImpl(ctor):
     def _1(instant):
-        date = datetime.fromtimestamp(instant / 1000)
+        date = datetime.datetime.fromtimestamp(instant / 1000)
         return ctor(date.year)(date.month)(date.day)(date.hour)(date.minute)(
             date.second
         )(date.microsecond / 1000)
